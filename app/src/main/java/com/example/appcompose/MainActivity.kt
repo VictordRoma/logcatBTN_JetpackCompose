@@ -93,7 +93,7 @@ private fun App() {
                 buttonColors = WarningButtonColors(),
                 modifier = Modifier.fillMaxWidth(0.5f)
             ){
-                Log.w(TAG, "App: executou um WARNING!")
+                Log.w(TAG, "App: executouum WARNING!")
             }
             ActionButton(
                 text = "Error",
