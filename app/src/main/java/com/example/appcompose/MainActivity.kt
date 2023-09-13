@@ -1,4 +1,4 @@
-package com.example.appcompose
+cutpackage com.example.appcompose
 
 import android.os.Bundle
 import android.util.Log
@@ -79,21 +79,21 @@ private fun App() {
                 buttonColors = DebugButtonColors(),
                 modifier = Modifier.fillMaxWidth(0.5f)
             ){
-                Log.d(TAG, "App: Clicou em DEBUG!")
+                Log.d(TAG, "App: executou o DEBUG!")
             }
             ActionButton(
                 text = "Info",
                 buttonColors = InfoButtonColors(),
                 modifier = Modifier.fillMaxWidth(0.5f)
             ){
-                Log.i(TAG, "App: Clicou em INFO!")
+                Log.i(TAG, "App: executou a INFO!")
             }
             ActionButton(
                 text = "Warning",
                 buttonColors = WarningButtonColors(),
                 modifier = Modifier.fillMaxWidth(0.5f)
             ){
-                Log.w(TAG, "App: Clicou em WARNING!")
+                Log.w(TAG, "App: executou um WARNING!")
             }
             ActionButton(
                 text = "Error",
